@@ -10,7 +10,6 @@ const findAllRecipes = (event, context, cb) => {
 };
 
 const findOneRecipes = (event, context, cb) => {
-    console.log('context ', context);
     const response = {
         statusCode: 200,
         body: recipes.filter(recipe => recipe.uid === event.uid)
