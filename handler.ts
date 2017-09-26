@@ -10,9 +10,11 @@ const findAllRecipes = (event, context, cb) => {
 };
 
 const findOneRecipes = (event, context, cb) => {
+    console.log('context :', context);
+    console.log('event :', event);
     const response = {
         statusCode: 200,
-        body: JSON.stringify(recipes.filter(recipe => recipe.uid === event.uid))
+        body: JSON.stringify(recipes.filter(recipe => recipe.uid === event.pathParameters.uid))
     };
 
     cb(null, response);
