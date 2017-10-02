@@ -27,4 +27,16 @@ C'est la parfaite recette de Noel à mettre sur toutes les tables !`,
     }
 ];
 
+// const recipes = [
+//     {
+//         uid: "134EDFRET57UHGHU8ZETF",
+//         nom: "Buche de Noel",
+//         type: "Vegetarien",
+//         cuisson: "30 minutes",
+//         histoire: "A lorigine",
+//         img_small: "https://images.marmitoncdn.org/recipephotos/multiphoto/88/8800b0d9-2df6-4572-affb-d7a4c06d8331_tn-80x80.jpg",
+//         img_big: "https://image.afcdn.com/recipe/20121214/39297_w420h344c1cx192cy256.jpg"
+//     }
+// ];
+
 export default recipes;
